@@ -1,0 +1,453 @@
+/* @import has error in production build  */
+/* @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); */
+/* font import */ 
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans Thin'), local('NotoSans-Thin'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Thin-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Thin-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Thin-Hestia.woff) format('woff'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Thin-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans Light'), local('NotoSans-Light'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Light-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Light-Hestia.woff) format('woff'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Light-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 350;
+    src: local('Noto Sans DemiLight'), local('NotoSans-DemiLight'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-DemiLight-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Regular-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Regular-Hestia.woff) format('woff'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Regular-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Medium-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Medium-Hestia.woff) format('woff'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Medium-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Bold-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Bold-Hestia.woff) format('woff'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Noto Sans Black'), local('NotoSans-Black'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Black-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Black-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Black-Hestia.woff) format('woff'),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Black-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url('./assets/fonts/Mont-HeavyDEMO.otf');
+}
+
+/* 컴포넌트 스타일 */
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Korean';
+}
+
+
+body {    
+    margin: 0px;
+}
+
+// div를 화면 가로 가운데 위치하는 스타일
+.divCenter {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// 하이퍼링크 스타일
+a {
+    text-decoration: none;
+    &:visited {
+        text-decoration: none;
+    }
+    &:link {
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+// 테이블 리스트 스타일
+.boardTable{
+    table-layout: fixed;
+    border-collapse: collapse;          
+    thead {
+        th {
+            border: 1px solid #ffffff; 
+            height: 20px;
+            background-color: #415370;
+        }
+    }
+    tbody {
+        tr{
+            &:hover {
+                filter: opacity(.8);
+            }
+            //홀수번째 행
+            &:nth-child(odd){
+                background-color: #f2f2f2;            
+            }
+            //짝수번째 행
+            &:nth-child(even){
+                background-color: #E4E4E4;
+            }
+            td {
+                height: 28px;
+                border: 1px solid #ffffff; 
+                //첫번째 열 ...
+                &:nth-child(1) {
+                    width: 52px;
+                    max-width: 52px;
+                }
+                &:nth-child(2) {
+                    width: 445px;
+                    max-width: 445px;
+                    padding-left: 12px;
+                }
+                &:nth-child(3) {
+                    width: 100px;
+                    max-width: 100px;
+                }
+                &:nth-child(4) {
+                    width: 100px;
+                    max-width: 100px;
+                }
+
+                span {
+                    display: block;
+                    margin: 0 auto;
+                    // 너무 길때 ... 표시
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+//article 테이블 스타일
+.articleTable{
+    $TEXTAREA_WIDTH : 648;
+    $TEXTAREA_HEIGHT : 362;
+    table-layout: fixed;
+    border-collapse: collapse;          
+    thead {
+        th {
+            border: 1px solid #ffffff; 
+            height: 20px;
+            background-color: #415370;
+            &:nth-child(1){
+                width: 52px;
+            }
+            &:nth-child(2){
+                width: 446px;
+            }
+            &:nth-child(3){
+                width: 100px;
+            }
+            &:nth-child(4){
+                width: 100px;
+            }
+        }
+    }
+    tbody {
+        tr{
+            //1 행
+            &:nth-child(1){
+                background-color: #f2f2f2;  
+                td {
+                    vertical-align: top;
+                }          
+            }
+
+            td {
+                height: 28px;
+                border: 1px solid #ffffff; 
+                
+                //첫번째 열 ...
+                &:nth-child(1) {
+                    width: 52px;
+                    max-width: 52px;
+                    span {
+                        @extend .divCenter
+                    }
+                    background-color: #f2f2f2;
+                }
+                &:nth-child(2) {
+                    width: $TEXTAREA_WIDTH+px;
+                    max-width: $TEXTAREA_WIDTH+px;
+                    @extend .Txt5-E;
+                    padding-left: 12px;
+                    width: ($TEXTAREA_WIDTH - 1)+px;
+                    height: ($TEXTAREA_HEIGHT - 1)+px;
+                    background-color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+
+//pagination
+*.pagination {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+    li{
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .break{
+        font-size: 14px;
+        color: #ffffff;
+    }
+    .page{
+        font-size: 14px;
+        color: #ffffff;
+    }
+    .active{
+        font-weight: bold;
+        font-size: 14px;
+        color: #006ef7;
+    }
+}
+
+
+
+//  BtnRoundSmall
+.BtnRoundSmall {   
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background-color: unset;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*
+    Fonts 그래픽 문서 참조
+    ~\VRSPORTS\04 그래픽\전달\VRSPORTS_guide_WEB메인.pptx
+    페이지 별로 필요한 폰트 생성
+
+*/
+// -1
+.Txt1-A{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt1-B{
+    font-family: 'Mont-Heavy';
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt1-C{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt1-D{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+// -2
+
+.Txt2-A{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt2-B{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt2-C{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt2-D{
+    text-align: center;
+    font-size: 14px;
+    color: #393939; 
+}
+.Txt2-E{
+    text-align: left;
+    font-size: 14px;
+    color: #393939; 
+}
+
+// -3
+
+.Txt3-A{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt3-B{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt3-C{
+    text-align: center;
+    font-size: 14px;
+    color: #393939;
+}
+
+.Txt3-D{
+    text-align: left;
+    font-size: 14px;
+    color: #393939; 
+}
+
+.Txt3-E{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff; 
+}
+
+.Txt3-F{
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff; 
+}
+
+.Txt3-G{
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff; 
+}
+
+.Txt3-G-Selected{
+    text-align: center;
+    font-size: 14px;
+    color: #006ef7; 
+}
+
+// 4
+
+
+// 5
+
+.Txt5-A{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt5-B{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Txt5-C{
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.Txt5-D{
+    text-align: center;
+    font-size: 14px;
+    color: #393939; 
+}
+
+.Txt5-E{
+    text-align: left;
+    font-size: 14px;
+    color: #393939; 
+}
+
+.Txt5-F{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.Txt5-G{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+

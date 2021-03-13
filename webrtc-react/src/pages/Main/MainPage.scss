@@ -1,0 +1,36 @@
+.MainPageWrapper{
+    width: 1200px;
+    // background-image: url("../../assets/imgs/bg_web.png");
+    background-repeat : no-repeat;
+    background-size : auto;
+    // // 상단제목 부분 @components/Common/Top
+    // // 상단메뉴 부분 @components/Common/Top
+    // 메인컨텐츠 & 우측 메뉴
+    .mainWrapper {
+        position: relative;
+        // 메인 컨텐츠 게시판, FAQ
+        .boardFaqWrapper {
+            margin-left: 250px;
+            margin-right: 250px;
+            width: 700px;
+            height: 610px;
+            .boardTopWrapper {
+                height: 70px;
+                .leftTitleWapper {
+                    float: left;
+                    margin-top: 30px;
+                }
+                .BtnRightMore {
+                    float: right;
+                    margin-top: 30px;
+                    border: 1px solid #ffffff;
+                    border-radius: 15px;
+                    background-color: unset;
+                    width: 70px;
+                    height: 30px;
+                    line-height: 30px;
+                }                
+            }
+        }
+    }
+}

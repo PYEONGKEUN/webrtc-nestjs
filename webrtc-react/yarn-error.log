@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\skvud\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Dev\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Dev\gradle-6.5.1\bin;C:\Python27;C:\Dev\flutter\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Users\skvud\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\skvud\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\skvud\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\skvud\AppData\Local\Android\Sdk\platform-tools;C:\Users\skvud\AppData\Roaming\npm;C:\Users\skvud\.dotnet\tools;C:\Users\skvud\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Windows\Documents\GitHub\webrtc-nestjs\webrtc-react\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\skvud\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\skvud\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\skvud\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,46 @@
+﻿
+#로그 설정
+logger:
+    logLevel: debug
+    path: c:/vrsports/log
+
+# 파일 업로드 설정
+multipartFiles:
+    uploadPath: c:/vrsports/upload/
+
+
+
+# 사용자 비밀번호 암호화 salt
+encriptSalt: tpVBTHge4&o7m&3izx%D
+
+
+#express setting
+express:
+    port: 3000
+    session:
+        secret: L3VdDBdB4iSuw98HFl07szrIyGZoe3r4
+
+
+# DB
+dbApp:
+    dialect: mariadb
+    host: 127.0.0.1
+    port: 3306  
+    database: sequelize
+    timezone: Etc/GMT-9
+    user: dbuser
+    password: dbpasswd
+    charset: utf8mb4
+    connectionLimit: 32
+    min: 0
+    idle: 10000
+    acquireTimeout: 1000    
+
+
+# redis 설정
+redis:
+    host: 127.0.0.1
+    port: 
+    total_retry_time: 15000 #15 * 1000 15sec
+    retry: 5 # connection retry 
+    

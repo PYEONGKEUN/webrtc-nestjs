@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "esnext",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        // "noImplicitReturns": true,
+        // "noImplicitThis": true,
+        // "noImplicitAny": true,
+        // "strictNullChecks": true,
+        "baseUrl": "./",
+        "rootDir": "./",
+        "typeRoots": ["./node_modules/@types", "./src/@types"],
+        "paths": {
+            "@src/*": ["src/*"],
+            "@assets/*": ["src/assets/*"], // assets 를 import shorcut으로 등록 준비 webpack도 설정해야함
+            "@components/*": ["src/components/*"],
+            "@containers/*": ["src/containers/*"],
+            "@constrants/*": ["src/constrants/*"],
+        },
+        // "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        // "importsNotUsedAsValues": "preserve"
+    },
+    "exclude": ["node_modules", "webpack"]
+}
